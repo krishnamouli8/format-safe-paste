@@ -7,6 +7,7 @@ This project is a Chrome extension designed to provide safe formatting when past
 1. **Clone or Download the Repository**
    - Click the green **Code** button at the top of the repository page.
    - Select **Download ZIP** or use `git clone` if you are comfortable with Git:
+     
      ```bash
      git clone https://github.com/krishnamouli8/format-safe-paste.git
      ```
