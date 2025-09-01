@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Formatting-Safe Paster",
+  "version": "1.0",
+  "description": "Saves text and pastes it with Alt+X, preserving formatting.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "paste-text": {
+      "suggested_key": {
+        "default": "Alt+X"
+      },
+      "description": "Paste the saved text"
+    }
+  }
+}
